@@ -5,32 +5,21 @@
 #
 # DO NOT INCLUDE the GVR/STEAMVR Unity assets
 #
-# this project has *multiple* gitignore files.
+
 
 #
 # DO NOT INCLUDE the video files
 #
 
-/mobile_version/ble_sensor/Unity_GVR_project/Assets/Movies 
+/Assets/Movies/
 
-
-#
-# GENERIC PROCESSING
-#
-
-applet
-application.linux32
-application.linux64
-application.windows32
-application.windows64
-application.macosx
 
 #
 # GENERIC UNITY
 #
 
-**/[Ll]ibrary/
-**/[Tt]emp/
+/[Ll]ibrary/
+/[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
