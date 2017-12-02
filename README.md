@@ -4,5 +4,5 @@
 
 
 
-The unity projects in this repository include code from, see license:
+The unity projects in this repository include OSC code from thomasfredericks (see license):
 https://github.com/thomasfredericks/UnityOSC

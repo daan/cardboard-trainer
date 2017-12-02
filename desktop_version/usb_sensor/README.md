@@ -15,7 +15,12 @@ trinket m0 https://www.adafruit.com/product/3500
 
 ## sensor firmware
 
-The sensor will count the time between revolution. 
+The sensor will count the time between revolution. We use the Adafruit Trinket m0.
+
+https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/arduino-ide-setup
+
+
+
 
 ## processing sensor app
 
