@@ -6,6 +6,9 @@
 # DO NOT INCLUDE the GVR/STEAMVR Unity assets
 #
 
+/Assets/SteamVR
+/Assets/SteamVR.meta
+
 #
 # DO NOT INCLUDE the video files
 #
