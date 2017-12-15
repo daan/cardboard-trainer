@@ -4,6 +4,11 @@ This sensor connects to a desktop/laptop using USB. A processing application rea
 
 Two pd patches are used to debug the OSC messages.
 
+![pure data patch](/pd.png)
+
+
+
+
 ## making the sensor
 
 The sensor is intended to be used on a machine and counts the revolutions. The RMP is tuned so that it results in a speed value in m/s.
@@ -28,6 +33,9 @@ This app requires the latest processing https://processing.org and the controlP5
 
 Select a serial port and connect to the Arduino. Once connected the speed values from the sensor should stream in. 
 Without a connection, the "knob" or the a and d keys can be used to decrease and increase the speed. 
+
+![sensor app](/sensor_app.png)
+
 
 
 
