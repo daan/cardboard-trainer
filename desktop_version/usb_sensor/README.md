@@ -4,7 +4,7 @@ This sensor connects to a desktop/laptop using USB. A processing application rea
 
 Two pd patches are used to debug the OSC messages.
 
-![pure data patch](/pd.png)
+![pure data patch](pd.png)
 
 
 
@@ -34,7 +34,7 @@ This app requires the latest processing https://processing.org and the controlP5
 Select a serial port and connect to the Arduino. Once connected the speed values from the sensor should stream in. 
 Without a connection, the "knob" or the a and d keys can be used to decrease and increase the speed. 
 
-![sensor app](/sensor_app.png)
+![sensor app](sensor_app.png)
 
 
 
