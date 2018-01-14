@@ -12,13 +12,13 @@ Note that both the movies and googleVR are excluded in the .gitignore at the roo
 
 # Working with 360 movies.
 
-![movie encoder][movie_encoding.png]
+![movie encoder](movie_encoding.png)
 
 For the best result (within Unity) transcode the video for android. Depending on the phone lower the settings.
 
 The movie is played in the video player that is attached to an inside out sphere "env_sphere". In the video player you specify which movie and can also set the speed.
 
-![video player][video_player.png]
+![video player](video_player.png)
 
 
 # Controlling Speed
