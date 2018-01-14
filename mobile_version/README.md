@@ -7,6 +7,7 @@ This version is build for the Google VR API and is tested with Android. The fold
 https://github.com/googlevr/gvr-unity-sdk/releases
 3) download a 360 movie and put it in the "movies" subfolder.
 the example file works with this movie:
+https://drive.google.com/open?id=1KUaFk0oRK0KpHv8LEW2CHw7jK2iK8sTR
 
 Note that both the movies and googleVR are excluded in the .gitignore at the root of each project.
 
