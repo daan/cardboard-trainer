@@ -24,6 +24,11 @@ The movie is played in the video player that is attached to an inside out sphere
 # Controlling Speed
 
 The speed of the movie can be controlled with the BLE sensor or with OSC and the USB sensor.
+Try the example in the VR 360 Video Project. Click on the screen to increase the speed
+
+![playback speed][playback_speed.png]
+
+
 
 
 
