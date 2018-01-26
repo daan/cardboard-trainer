@@ -30,6 +30,23 @@ public class sphereScript : MonoBehaviour {
 			SetText(s);
 			Debug.Log( mPlayer.playbackSpeed);
 		}
+
+		// decode in ASCII
+		// (a - 48.0) / 10.0f;
+		// (0)48 == 0 ; v(118) = 7.0;
+		// 49 == 0.1 . D == 2.0
+
+		if(Input.inputString!="")
+         {
+             char last=Input.inputString[Input.inputString.Length - 1];
+			 int ascii = (int)last; 
+			 if( ascii >= 48) {
+				 float speed = (float)(ascii-48) / 10.0f;
+				 Debug.Log(speed);
+				 mPlayer.playbackSpeed = speed;
+			 }
+         }
+
 	}
 
 	void OnMouseDown() {
